@@ -1,6 +1,6 @@
 const c = "abcdefghijklmnopqrstuvwxyz0123456789._";
 const url = "https://discord.com/api/v9/users/@me/pomelo-attempt";
-const authorization = "YOUR_DISCORD_TOKEN";
+const authorization = ""MTM3NTU5OTQ2MzgwODIzNzU4OQ.GrRZEy.dDdAXkn8AUGPMWjrZ3C8i8L_rA6nys1gay94kQ";
 
 const sleep = ms => new Promise(r => setTimeout(r, ms));
 const rand = () => [...Array(12)].map(() => c[(Math.random() * c.length) | 0]).join("");
